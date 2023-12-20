@@ -162,10 +162,10 @@ body{
     display: block;
 }
 .meal-name{
-    
     padding: 1.5rem 0.5rem;
 }
 .meal-name h3{
+    color: black;
     font-size: 1.4rem;
 }
 .recipe-btn{

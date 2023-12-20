@@ -14,6 +14,7 @@ searchBtn.addEventListener('click', function () {
 
 searchInput.addEventListener('keypress', function (event) {
     if (event.key === 'Enter') {
+        event.preventDefault(); // Prevent the default form submission
         getMealList();
         titleElement.innerText = "You Searched For :-";
     }
