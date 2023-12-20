@@ -393,6 +393,13 @@ h3{
   margin-top: 2.7rem;
   font-size: 1.5rem;
 }
+#text1{
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
 
  .bottom footer {
   width: 100%;

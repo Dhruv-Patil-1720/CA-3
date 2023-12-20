@@ -118,7 +118,7 @@ function showRandomMeal() {
         const ranmeal = res.meals[0];
         console.log(ranmeal);
         let html = `
-            <h3>Just for You </h3>
+            <h3 id="text1">Just for You :- </h3>
             <div class="card random-card" style="width: 18rem;">
                 <img class="card-img-top c-img" src="${ranmeal.strMealThumb}" alt="${ranmeal.strMeal}">
                 <div class="card-body c-body">
