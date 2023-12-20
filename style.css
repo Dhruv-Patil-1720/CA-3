@@ -142,6 +142,8 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    font-family: fantasy;
+    color: #fff;
 }
 .meal-item{
     background-color: rgb(249, 249, 249);
@@ -544,6 +546,8 @@ h3{
        display: flex;
        flex-direction: column;
        justify-content: center;
+     font-family: fantasy;
+       color: #fff;
 
     }
   
@@ -611,6 +615,8 @@ h3{
        display: flex;
        flex-direction: column;
        justify-content: center;
+       font-family: fantasy;
+       color: #fff;
        
     }
   
